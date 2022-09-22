@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment-003
+  name: nginx-deployment-004
 spec:
   selector:
     matchLabels:
-      app: nginx-container-003
+      app: nginx-container-004
   replicas: 2
   template:
     metadata:
       labels:
-        app: nginx-container-003
+        app: nginx-container-004
     spec:
       containers:
       - name: nginx
@@ -22,15 +22,15 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-service-003
+  name: nginx-service-004
   labels:
     app: nginx
 spec:
   ports:
-  - nodePort: 30003
+  - nodePort: 30004
     port: 80
     protocol: TCP
   selector:
-    app: nginx-container-003
+    app: nginx-container-004
   type: NodePort
  
