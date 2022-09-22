@@ -16,7 +16,7 @@ RUN apt-get install apache2 -y
 
 #RUN  a2enconf phpmyadmin
 
-RUN echo "Hi Milan. Welcome to k8s & TaTa ByE ByE" > /var/www/html/index.html
+RUN echo "Hi Milan. Welcome to k8s & TaTa ByE ByE & CU" > /var/www/html/index.html
 
 EXPOSE 80
 
