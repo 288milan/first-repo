@@ -16,7 +16,7 @@ RUN apt-get install apache2 -y
 
 #RUN  a2enconf phpmyadmin
 
-RUN echo "Hi Milan. Welcome to kubernetes && bye the BYE" > /var/www/html/index.html
+RUN echo "Hi MilanDharmaraj....... Welcome to kubernetes && bye BYE cu TAta taTA" > /var/www/html/index.html
 
 EXPOSE 80
 
