@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: 288milan/jenkins-pipe-demo:jenkins-pipe-demo
+        image: 288milan/jenkins-pipe-demo
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 ---
