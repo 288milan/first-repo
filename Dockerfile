@@ -16,7 +16,7 @@ RUN  ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.co
 
 RUN  a2enconf phpmyadmin
 
-RUN echo "Hi Milan. Welcome to k8s" > /var/www/html/index.html
+RUN echo "Hi Milan. Welcome to k8s & TaTa ByE ByE" > /var/www/html/index.html
 
 EXPOSE 80
 
