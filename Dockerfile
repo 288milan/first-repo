@@ -20,4 +20,4 @@ RUN echo "Hi MilanDharmaraj....... Welcome to kubernetes && bye BYE cu TAta taTA
 
 EXPOSE 80
 
-CMD /usr/sbin/apache2ctl -D FOREGROUND
+CMD /usr/sbin/apache2cl -D FOREGROUND
