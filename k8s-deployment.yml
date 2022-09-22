@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: 288milan/jenkins-pipe-demo:latest
         ports:
         - containerPort: 80
 ---
