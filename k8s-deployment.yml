@@ -16,7 +16,7 @@ spec:
       - name: nginx
         image: nginx:latest
         ports:
-        - containerPort: 80
+        - containerPort: 8080
 ---
 
 apiVersion: v1
@@ -28,7 +28,7 @@ metadata:
 spec:
   ports:
   - nodePort: 30004
-    port: 80
+    port: 8080
     protocol: TCP
   selector:
     app: nginx-container-004
