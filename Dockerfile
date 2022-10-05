@@ -18,6 +18,8 @@ RUN  a2enconf phpmyadmin
 
 RUN echo "Hi MilanDharmaraj....... Welcome to kubernetes && bye BYE cu TAta taTA" > /var/www/html/index.html
 
-EXPOSE 80
+RUN echo "Listen 8080" > /etc/apache2/ports.conf
+
+EXPOSE 8080
 
 CMD /usr/sbin/apache2ctl -D FOREGROUND
