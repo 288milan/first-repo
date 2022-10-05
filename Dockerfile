@@ -18,6 +18,6 @@ RUN  a2enconf phpmyadmin
 
 RUN echo "Hi Milan. Welcome to k8s & TaTa ByE ByE" > /var/www/html/index.html
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD /usr/sbin/apache2ctl -D FOREGROUND
